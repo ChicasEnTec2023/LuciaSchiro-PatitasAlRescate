@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciodesesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="iniciarsesion.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Inicio de sesión</h1>
+        <form method="post">
+            <div class"username">
+                <label class="userlabel">Nombre de usuario</label>
+                <input id="inputuser" type="text" placeholder="Enter your username" required>
+            </div>
+            <div class="contraseña">
+                <label class="userlabel">Contraseña</label><br>
+                <input id="inputpassword" type="password" placeholder="Enter your password" required>
+            </div>
+            <label id="recordarusuario">
+                <input type="checkbox" name="recordar"> Recordar mi usuario
+            </label><br>
+            <input class="botoninicio" type="submit" value="Acceder">
+            <div class="contenedor">
+                <div id="recordar">¿Olvidó su contraseña?</div>
+                <div id="registrarse">¿No tienes una cuenta?</div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./registrarse.css">
+</head>
+<body>
+    <div id="boxgeneral">
+        <div id="boxpresentacion">
+            <div id="boxlogo">
+                <img src="./Patitas (2) (1).png" alt="logo" width="70" height="70">
+                <h1>Patitas al rescate</h1>
+            </div>
+            <div>
+                <img id="img" src="./pngwing.com (1).png" alt="imagen" width="280" height="360">
+            </div>
+        </div>
+        <div class="formulario">
+            <h1>Registrese para comenzar a figurar en el sistema y así poder interactuar en la página</h1>
+            <form method="post">
+                <div class="posicion">
+                    <div id="name">
+                        <label class="namelabel">Nombre</label>
+                        <input id="inputname" type="text" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div id="apellido">
+                        <label class="apellidolabel">Apellido/s</label><br>
+                        <input id="inputapellido" type="text" placeholder="Ingrese su apellido" required>
+                    </div>
+                </div>
+                <div class="posicion">
+                    <div id="nacimiento">
+                        <label class="fechalabel">Fecha de nacimiento</label>
+                        <input id="inputfecha" type="date">
+                    </div>
+                    <div id="dni">
+                        <label class="dnilabel">DNI</label>
+                        <input id="dniinput" type="tel" placeholder="Ingrese su DNI">
+                    </div>
+                </div>
+               <div class="posicion">
+                  <div id="genero">
+                     <label class="generolabel">Genero</label><br>
+                     <select name="generoselect">
+                        <option value="femenino">Femenino</option>
+                        <option value="masculino">Masculino</option>
+                     </select>
+                    </div>
+                    <div id="provincia">
+                        <label class="provincialabel">Provincia</label>
+                        <select name="provinciaselect">
+                            <option value="buenosAires">Buenos Aires</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="posicion">
+                    <div id="telefono">
+                        <label class="telefonolabel">Teléfono</label>
+                        <input id="inputtelefono" type="number" placeholder="Ingrese su numero"
+                    </div>
+                    <div id="correo">
+                        <label class="correolabel">Correo electrónico</label>
+                        <input id="inputcorreo" type="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="posicion">
+                    <div id="contraseña">
+                        <label class="contrseñalabel">Contraseña</label>
+                        <input id="inputcontraseña" type="password" placeholder="Ingrese su contraseña">
+                    </div>
+                    <div id="confirmar">
+                        <label class="confirmarlabel">Confirme su contraseña</label>
+                        <input id="inputconfirmar" type="password" placeholder="Reingrese su contraseña">
+                    </div>
+                </div>
+                <div id="boton">
+                    <button class="boton"><b>Finalizar registro</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    background-color: rgb(90, 73, 128);
+    height: 140px;
+    margin: 0px;
+}
+
+header h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 60px;
+    margin-top: 0px;
+    height: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgba(240, 255, 255, 0.952);
+    text-shadow: 2px 3px 3px rgb(8, 8, 8);
+}
+.contenedor{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+div h2{
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(124, 87, 167, 0.664);
+    height: 60px;
+    border-radius: 5px;
+    width: 1390px;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(19, 11, 5, 0.904);
+    text-shadow: 2px 2px 2px rgba(255, 253, 253, 0.842);
+}
+
+#tamaño{
+    height: 70px;
+}
+
+div p{
+    font-size: 23px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif ;
+}
+
+li{
+    font-size: 20px;
+    line-height: 27px;
+    justify-content: start;
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+    font-size: 25px;
+    border:  5px solid transparent;
+    padding-bottom: 10px;
+    width: 900px;
+    background-color: rgb(106, 78, 133);
+    margin-right: 30px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 220px;
+    color: azure;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    color:rgb(30, 9, 44);
+    font-family: 'Roboto', sans-serif;
+}
+
+#mensaje{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 25px;
+    border: 5px solid transparent;
+    height: 200px;
+    margin-top: -20px;
+    background-color: rgba(70, 29, 146, 0.24);
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+}

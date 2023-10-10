@@ -1,0 +1,59 @@
+body{
+    background-image: url('./fondov.png');
+    background-size: cover;
+    background-position: start;
+    background-repeat: no-repeat;
+}
+
+.boxtitulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 175px;
+    margin-bottom: 20px;
+}
+
+.textomayor{
+    text-align: center;
+    border: 10px solid transparent;
+    color: white;
+    margin-bottom: -30px;
+}
+
+.subtexto{
+    text-align: center;
+    border: 10px solid transparent;
+    color: white;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    border: 10px solid transparent;
+    margin-top: 20px;
+}
+
+#boton1{
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 8px 14px;
+    width: 230px;
+    box-shadow: 3px 3px 10px rgb#BF9D72;
+    font-family: 'Poppins', sans-serif;
+    color: #443F3F;
+}
+
+#boton2{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 8px 14px;
+    width: 230px;
+    box-shadow: 3px 3px 10px rgb#BF9D72;
+    font-family: 'Poppins', sans-serif;
+    color: #443F3F;
+}

@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+    background-color: #ECE2C6;
+}
+
+main{
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-top: 80px;
+}
+
+header{
+    background-color: #a788ab;
+    height: 140px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    border: 2px solid transparent;
+}
+
+#titulo h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #E1E1E1;
+    text-shadow: 2px 2px 2px #140d20;
+    letter-spacing: 1px;
+    font-size:40px;
+}
+
+#primerfila{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+    width: 250px;
+    height: 300px;
+    padding-top: 30px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+    border-radius: 5%;
+    background-color: #af7ead ;
+}
+
+.box img{
+    border-radius: 10%;
+    margin-bottom: -9px;
+}
+
+.box h4{
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    background-color: #ECE2C6;
+    color: #4D3636;
+    font-size: 25px;
+    width: 190px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#segundafila{
+    display: flex;
+    flex-direction: row;
+}
+
+#tercerfila{
+    display: flex;
+    flex-direction: row;
+}
+
+.piedepagina{
+    display: flex;
+    background-color: #a788ab;
+    border: 1px solid transparent;
+    flex-direction: row;
+    height: 300px;
+
+}
+
+.contactanos{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 500px;
+    height: 90%;
+    flex-direction: column;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+#titulocon{
+    font-family: 'Fjalla One', sans-serif;
+    color:#e0dde6e0;
+    text-shadow: 2px 2px 4px  #0e0811;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: 10px#816DA8;
+    width: 300px;
+    height: 80px;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+#titulopa{
+    font-family: 'Fjalla One', sans-serif;
+    color:#e0dde6e0;
+    text-shadow: 2px 2px 4px  #0e0811;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: 10px#816DA8;
+    width: 300px;
+    height: 80px;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#titulopf{
+    font-family: 'Fjalla One', sans-serif;
+    color:#e0dde6e0;
+    text-shadow: 2px 2px 4px  #0e0811;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    border: 10px#816DA8;
+    width: 300px;
+    height: 90px;
+    flex-direction: column;
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+
+#instagram{
+    font-family: 'Roboto', sans-serif;
+    color: #e0dde6e0;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-self: center;
+    border: 3px solid transparent;
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+#correo{
+    font-family: 'Roboto', sans-serif;
+    color: #e0dde6e0;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-self: center;
+    border:3px solid transparent;
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#facebook{
+    font-family: 'Roboto', sans-serif;
+    color: #e0dde6e0;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-self: flex-end;
+    border: 3px solid transparent;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+
+#contacto{
+    margin-left: 80px;
+}
+
+.imgn{
+    border: 3px solid transparent;
+    margin-right: 5px;
+}
+
+.direccion{
+    margin: 2px ;
+    text-align: center;
+}
+
+.politicaadop{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 500px;
+    height: 90%;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#link{
+    font-family: 'Roboto', sans-serif;
+    color: #e0dde6e0;
+    margin-left: 45px;
+}
+.preguntas{
+    display: flex;
+    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 500px;
+    height: 90%;
+    margin-left: -5px;
+}
+
+ul h5{
+    font-size: 16px;
+}
+
+#pfrecuentes{
+    font-family: 'Roboto', sans-serif;
+    color: #e0dde6e0;
+    display: flex;
+    text-align: start;
+    height: 200px;
+    margin-top: -40px;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    line-height: 22px;
+}
+
+li a{
+    color: #e0dde6e0;
+    text-decoration: none;
+}
